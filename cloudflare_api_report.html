@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloudflare Security API Report</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 40px;
+            background-color: #f9fafb;
+            color: #1f2937;
+        }
+        h1 {
+            color: #f6821f;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 10px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        th {
+            background-color: #f3f4f6;
+            color: #374151;
+            font-weight: 600;
+        }
+        tr:hover {
+            background-color: #f9fafb;
+        }
+        .badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 9999px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .badge-success { background-color: #d1fae5; color: #065f46; }
+        .badge-warning { background-color: #fef3c7; color: #92400e; }
+        .domain-name { font-weight: bold; color: #2563eb; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Cloudflare Security API Report</h1>
+    <p><strong>Date:</strong> June 24, 2026</p>
+    <p>The following domains have been successfully configured with baseline security controls via the Cloudflare API.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Domain</th>
+                <th>Security Level</th>
+                <th>Min TLS Version</th>
+                <th>Always Use HTTPS</th>
+                <th>Browser Integrity</th>
+                <th>Auto HTTPS Rewrites</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="domain-name">avirka.ai</td>
+                <td><span class="badge badge-warning">High</span></td>
+                <td><span class="badge badge-success">TLS 1.2</span></td>
+                <td><span class="badge badge-success">Enabled</span></td>
+                <td><span class="badge badge-success">Enabled</span></td>
+                <td><span class="badge badge-success">Enabled</span></td>
+            </tr>
+            <tr>
+                <td class="domain-name">frakma.io</td>
+                <td><span class="badge badge-warning">High</span></td>
+                <td><span class="badge badge-success">TLS 1.2</span></td>
+                <td><span class="badge badge-success">Enabled</span></td>
+                <td><span class="badge badge-success">Enabled</span></td>
+                <td><span class="badge badge-success">Enabled</span></td>
+            </tr>
+            <tr>
+                <td class="domain-name">warblecloud.ai</td>
+                <td><span class="badge badge-warning">High</span></td>
+                <td><span class="badge badge-success">TLS 1.2</span></td>
+                <td><span class="badge badge-success">Enabled</span></td>
+                <td><span class="badge badge-success">Enabled</span></td>
+                <td><span class="badge badge-success">Enabled</span></td>
+            </tr>
+            <tr>
+                <td class="domain-name">warblecloud.com</td>
+                <td><span class="badge badge-warning">High</span></td>
+                <td><span class="badge badge-success">TLS 1.2</span></td>
+                <td><span class="badge badge-success">Enabled</span></td>
+                <td><span class="badge badge-success">Enabled</span></td>
+                <td><span class="badge badge-success">Enabled</span></td>
+            </tr>
+            <tr>
+                <td class="domain-name">warblelabs.io</td>
+                <td><span class="badge badge-warning">High</span></td>
+                <td><span class="badge badge-success">TLS 1.2</span></td>
+                <td><span class="badge badge-success">Enabled</span></td>
+                <td><span class="badge badge-success">Enabled</span></td>
+                <td><span class="badge badge-success">Enabled</span></td>
+            </tr>
+            <tr>
+                <td class="domain-name">warbleoss.org</td>
+                <td><span class="badge badge-warning">High</span></td>
+                <td><span class="badge badge-success">TLS 1.2</span></td>
+                <td><span class="badge badge-success">Enabled</span></td>
+                <td><span class="badge badge-success">Enabled</span></td>
+                <td><span class="badge badge-success">Enabled</span></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>

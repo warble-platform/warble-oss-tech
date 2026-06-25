@@ -1,0 +1,9 @@
+apiVersion: ml.warble.oss/v1alpha1
+kind: WarbleModelService
+metadata:
+  labels:
+    app.kubernetes.io/name: ml-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: warblemodelservice-sample
+spec:
+  # TODO(user): Add fields here
